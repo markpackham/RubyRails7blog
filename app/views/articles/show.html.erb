@@ -3,7 +3,7 @@
 <p><%= @article.body %></p>
 
 <ul>
-  <li><%= link_to "Articles", "/articles" %></li>
+  <li><%= link_to "Articles Main Page", "/articles" %></li>
   <li><%= link_to "Edit", edit_article_path(@article) %></li>
   <li><%= button_to "Destroy", article_path(@article), method: :delete %></li>
 </ul>
